@@ -1,1 +1,1 @@
-jQuery(document).ready(function(e){});
+jQuery(document).ready(function(e){e(".post > .row.content a").addClass("ga-event"),e(".hello > .row.content a").addClass("ga-event"),e("a.ga-event").attr("onclick","ga('send','event','LinkTo',this.href,'https://williamcanin.com/typing-jekyll-template');")});
